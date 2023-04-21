@@ -1,0 +1,59 @@
+# Introdução ao React
+
+O React é uma biblioteca JavaScript para construir interfaces de usuário (UI). Ele foi criado pelo Facebook em 2011 e é usado por muitas empresas em todo o mundo. O React é baseado em componentes, que são blocos de construção reutilizáveis que permitem criar interfaces de usuário dinâmicas e interativas.
+
+## Por que usar o React?
+
+O React torna mais fácil criar interfaces de usuário complexas e interativas, dividindo-as em pequenos componentes reutilizáveis. Com o React, você pode atualizar e renderizar partes específicas da sua página sem ter que recarregar a página inteira, o que melhora o desempenho e a experiência do usuário.
+
+## Como começar com o React
+
+
+Para começar a trabalhar com o React, você precisa ter uma compreensão básica de HTML, CSS e JavaScript. Se você ainda não sabe JavaScript, é recomendável aprender primeiro antes de começar com o React.
+
+A forma mais fácil de começar é usando o Create React App, um conjunto de ferramentas criado pelo Facebook para ajudar a configurar um ambiente de desenvolvimento React. O Create React App configura automaticamente um projeto React com todas as ferramentas necessárias para começar a desenvolver.
+
+Para usar o Create React App, primeiro você precisa ter o Node.js instalado em seu computador. Depois de instalado, abra o terminal e execute os seguintes comandos:
+
+### Instalação do projeto usando Create React App
+
+- Um pré requisito é ter o [node](https://nodejs.org) instalado
+
+Para começar a utilizar o React, você pode instalar o Create React App, uma ferramenta de linha de comando que facilita a criação de um projeto React inicial. Para instalar, execute o seguinte comando em seu terminal:
+
+```shell
+npx create-react-app meu-app
+
+```
+
+Substitua "meu-app" pelo nome que desejar para o seu projeto. Isso criará uma nova pasta com o nome que você escolheu, contendo um projeto React básico.
+
+Para iniciar o servidor de desenvolvimento, execute o seguinte comando dentro da pasta do projeto:
+
+```shell
+cd meu-app
+npm start
+
+```
+
+Isso iniciará o servidor de desenvolvimento e abrirá uma nova janela do navegador com o seu aplicativo React rodando em http://localhost:3000.
+
+### JSX e utilização dos {} dentro do JSX
+
+JSX é uma extensão de sintaxe do JavaScript que permite escrever HTML-like no JavaScript. Ele é utilizado para criar componentes React de forma declarativa e expressiva.
+
+Por exemplo:
+
+```jsx
+
+function Welcome(props) {
+  return <h1>Hello, {props.name}!</h1>;
+}
+
+const element = <Welcome name="Ronier" />;
+
+```
+
+No exemplo acima, o componente funcional Welcome recebe uma propriedade name do pai e retorna um elemento de cabeçalho HTML com o texto "**Hello, Ronier!**".
+
+Observe que para inserir uma variável dentro do JSX, é necessário utilizar {}.

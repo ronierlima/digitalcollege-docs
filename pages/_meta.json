@@ -1,15 +1,10 @@
 {
-  "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
-  "about": {
-    "title": "About",
-    "type": "page"
-  },
+  "index": "Hello Word",
+  "aulas": "Aulas",
   "contact": {
-    "title": "Contact ↗",
+    "title": "Contato ↗",
     "type": "page",
-    "href": "https://twitter.com/shuding_",
+    "href": "https://www.linkedin.com/in/ronierlima/",
     "newWindow": true
   }
 }
