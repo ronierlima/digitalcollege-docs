@@ -11,7 +11,7 @@ const config: DocsThemeConfig = {
   },
   docsRepositoryBase: 'https://github.com/ronierlima/digitalcollege-docs',
   footer: {
-    text: 'Nextra Docs Template',
+    text: 'By Ronier Lima',
   },
 }
 
